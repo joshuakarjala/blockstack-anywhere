@@ -1,0 +1,12 @@
+{
+  "name": "blockstack-anywhere",
+  "version": "1.0.0",
+  "description": " interact with blockstack storage - given credentials",
+  "main": "index.js",
+  "repository": "git@github.com:joshuakarjala/blockstack-anywhere.git",
+  "author": "Joshua Karjala-Svendsen <joshua@fluxuries.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blockstack": "^18.0.2"
+  }
+}
