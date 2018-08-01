@@ -1,7 +1,7 @@
 # blockstack-anywhere
 interact with blockstack storage - given credentials
 
-```
+```javascript
 const loadBlockstack = require('./')
 
 const blockstack = loadBlockstack({
