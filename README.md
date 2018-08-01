@@ -4,6 +4,7 @@ interact with blockstack storage - given credentials
 ```javascript
 const loadBlockstack = require('./')
 
+// this is the data form your browser local storage - with the same keys
 const blockstack = loadBlockstack({
   "blockstack": " ... secret stuff ... ",
   "blockstack-gaia-hub-config": " ... secret stuff ... ",
