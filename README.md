@@ -1,7 +1,7 @@
 # blockstack-anywhere
 Interact with Blockstack from a non browser environment - like *node* or *WebWorkers*
 
-!! This is a hack until Blockstack has an official soluion !!
+**!! This is a hack until Blockstack has an official soluion !!**
 
 ```javascript
 // Should be initialized at the beginning of your app. Before any calls to blockstack are made
@@ -14,7 +14,7 @@ loadBlockstack({
   "blockstack-transit-private-key": " ... secret stuff ... "
 })
 
-const blockstack = requie('blockstack')
+const blockstack = require('blockstack')
 
 blockstack.loadUserData()
 blockstack.getFile('file.json').then(console.log)
