@@ -1,5 +1,5 @@
-const blockstack = require('blockstack');
-const fakeLocalStorage = require('./utils/fakeLocalStorage');
+const blockstack = require('blockstack')
+const fakeLocalStorage = require('./utils/fakeLocalStorage')
 
 module.exports = function loadBlockstack (blockstackData) {
   localStorage = fakeLocalStorage.createLocalStorage(blockstackData)
@@ -8,6 +8,6 @@ module.exports = function loadBlockstack (blockstackData) {
     location: {
       origin: ''
     }
-  };
-  return blockstack;
+  }
+  return blockstack
 }

@@ -61,4 +61,4 @@ typings/
 .next
 blockstack-anywhere.code-workspace
 private-test.js
-.vscode/launch.json
+.vscode
