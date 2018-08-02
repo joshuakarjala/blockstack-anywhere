@@ -5,8 +5,9 @@ Interact with Blockstack from a non browser environment - like *node* or *WebWor
 
 ```javascript
 // Should be initialized at the beginning of your app. Before any calls to blockstack are made
-
 const loadBlockstack = require('blockstack-anywhere')
+const blockstack = require('blockstack')
+
 // this is the data form your browser local storage - with the same keys
 loadBlockstack({
   "blockstack": " ... secret stuff ... ",
@@ -14,9 +15,8 @@ loadBlockstack({
   "blockstack-transit-private-key": " ... secret stuff ... "
 })
 
-const blockstack = require('blockstack')
+// optional also work with the ENV variables set to BLOCKSTACK, BLOCKSTACK_GAIA_HUB_CONFIG and BLOCKSTACK_TRANSIT_PRIVATE_KEY
 
-blockstack.loadUserData()
 blockstack.getFile('file.json').then(console.log)
 
 ```
